@@ -17,7 +17,7 @@ module.exports = {
         '!**/node_modules/**',
       ],
     },
-    
+
     // Client-side tests configuration
     {
       displayName: 'client',
@@ -40,7 +40,7 @@ module.exports = {
       ],
     },
   ],
-  
+
   // Global configuration
   verbose: true,
   collectCoverage: true,
@@ -54,4 +54,4 @@ module.exports = {
     },
   },
   testTimeout: 10000,
-}; 
+};
